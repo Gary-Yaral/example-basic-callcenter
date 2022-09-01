@@ -1,0 +1,222 @@
+[
+    {
+        "dni": "1243554666",
+        "name": "Carlos Alfredo Gutierrez Noboa",
+        "status": "Unión libre",
+        "born": "15/10/1976",
+        "couple": "Angela Rebeca Miranda Ortíz",
+        "education": "Primaria",
+        "b_services": ["Energía"],
+        "house_tipe": "Hogar de cristo",
+        "salary": 425,
+        "sector": "Rural",
+        "children": [
+            {
+                "dni": "1233565778",
+                "name": "Pedro Alejandro Gutierrez Miranda",
+                "born": "02/02/2018"
+            },
+            {
+                "dni": "1233561456",
+                "name": "Anita Mercedes Gutierrez Miranda",
+                "born": "01/04/2020"
+            },
+            {
+                "dni": "1233535677",
+                "name": "Oscar Arturo Gutierrez Miranda",
+                "born": "01/04/2020"
+            }
+        ]
+    },
+    {
+        "dni": "1243557788",
+        "name": "Marina Fernanda Flores Troya",
+        "status": "Casada",
+        "born": "25/05/1980",
+        "couple": "Gonzalo Andrés Pluas Escobar",
+        "education": "Secundaria",
+        "b_services": ["Luz", "Agua"],
+        "house_tipe": "Hogar de cristo",
+        "salary": 210,
+        "sector": "Urbana",
+        "children": [
+            {
+                "dni": "1206532322",
+                "name": "Anthony Samuel Pluas Flores",
+                "born": "22/12/2017"
+            }
+        ]
+    },
+    {
+        "dni": "1290832234",
+        "name": "Carlos Alberto Hidalgo Andrade",
+        "status": "Casado",
+        "born": "30/04/1960",
+        "couple": "Daniela Esther Jurado Morán",
+        "education": "Primaria",
+        "b_services": ["Energia"],
+        "house_tipe": "Madera",
+        "salary": 425,
+        "sector": "Rural",
+        "children": [
+            {
+                "dni": "1242245567",
+                "name": "Paulette Angeline Hidalgo Jurado",
+                "born": "04/06/2017"
+            },
+            {
+                "dni": "1246548888",
+                "name": "Joselin Mercedes Hidalgo Jurado",
+                "born": "01/04/2010"
+            }
+        ]
+    },
+    {
+        "dni": "1257575456",
+        "name": "Glenda Enriqueta Zambrano Molina",
+        "status": "Soltero",
+        "born": "15/10/1976",
+        "couple": "",
+        "education": "Primaria",
+        "b_services": ["Energia", "Luz"],
+        "house_tipe": "Caña",
+        "salary": 180,
+        "sector": "Rural",
+        "children": [
+            {
+                "dni": "0933553240",
+                "name": "Rocio Elizabeth Zambrano Molina",
+                "born": "03/10/2013"
+            }
+        ]
+    },
+    {
+        "dni": "1324355677",
+        "name": "Holga Alicia Torres Mera",
+        "status": "Soltero",
+        "born": "12/23/1975",
+        "couple": "",
+        "education": "Primaria",
+        "b_services": ["Energia", "Agua"],
+        "house_tipe": "Hogar de cristo",
+        "salary": 200,
+        "sector": "Rural",
+        "children": [
+            {
+                "dni": "0973352336",
+                "name": "Franklin Andrés Torres Mera",
+                "born": "17/06/2008"
+            }
+        ]
+    },
+    {
+        "dni": "1243554666",
+        "name": "Miranda Agustina Rodriguez Guamán",
+        "status": "Unión libre",
+        "born": "15/10/1976",
+        "couple": "Flavio Gustavo Cerezo Contreras",
+        "education": "Secundaria",
+        "b_services": ["Agua", "Energia"],
+        "house_tipe": "Hogar de cristo",
+        "salary": 425,
+        "sector": "Urbana",
+        "children": [
+            {
+                "dni": "1273555356",
+                "name": "Lucia Antonella Cerezo Rodriguez",
+                "born": "04/12/2015"
+            },
+            {
+                "dni": "1264545788",
+                "name": "Rubi Mariela Cerezo Rodriguez",
+                "born": "01/01/2021"
+            }          
+        ]
+    },
+    {
+        "dni": "1283535223",
+        "name": "Luisa Andrea Hernandez López",
+        "status": "Casada",
+        "born": "13/11/1990",
+        "couple": "Freddy Gonzalo Guanoluisa Trejo",
+        "education": "Secundaria",
+        "b_services": ["Energia", "Agua"],
+        "house_tipe": "Caña",
+        "salary": 425,
+        "sector": "Rural",
+        "children": [
+            {
+                "dni": "1253567865",
+                "name": "Sebastian Hernesto Guanoluisa Hernandez",
+                "born": "14/02/2017"
+            }
+        ]
+    },
+    {
+        "dni": "1209765656",
+        "name": "Fernanda María Rosado Cerezo",
+        "status": "Unión libre",
+        "born": "23/12/1986",
+        "couple": "Timoteo Gabriel Jurado Barco",
+        "education": "Primaria",
+        "b_services": ["Energia"],
+        "house_tipe": "Madera",
+        "salary": 455,
+        "sector": "Rural",
+        "children": [
+            {
+                "dni": "1345575775",
+                "name": "Pamela Rosa Jurado Rosado",
+                "born": "25/08/2000"
+            }
+        ]
+    },
+    {
+        "dni": "0932752358",
+        "name": "Esther Angela Mera Plaza",
+        "status": "Soltero",
+        "born": "18/05/1989",
+        "couple": "",
+        "education": "Primaria",
+        "b_services": ["Agua","Energia"],
+        "house_tipe": "Hogar de cristo",
+        "salary": 165,
+        "sector": "Rural",
+        "children": [
+            {
+                "dni": "1284422456",
+                "name": "Luis Carlos Mera Plaza",
+                "born": "23/12/2009"
+            }
+        ]
+    },
+    {
+        "dni": "1256789640",
+        "name": "Carmen Otilda Oñate Pluas",
+        "status": "Soltero",
+        "born": "27/07/1986",
+        "couple": "Luis Freddy Gonzabay Trejo",
+        "education": "Secundaria",
+        "b_services": ["Agua", "Energia"],
+        "house_tipe": "Madera",
+        "salary": 460,
+        "sector": "Rural",
+        "children": [
+            {
+                "dni": "0933553253",
+                "name": "Celia Agustina Gonzabay Oñate",
+                "born": "29/07/2017"
+            },
+            {
+                "dni": "0912472335",
+                "name": "Ana Rosa Gonzabay Oñate",
+                "born": "01/04/2019"
+            },
+            {
+                "dni": "0932535355",
+                "name": "Jeremy Felipe Gonzabay Oñate",
+                "born": "12/08/2022"
+            }
+        ]
+    }
+]

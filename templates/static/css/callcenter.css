@@ -1,0 +1,158 @@
+/* Reseteamos los margenes y relleno*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Configuramos el banner */
+.banner {
+    background: url("../img/palacio.jpg");
+    display: flex;
+    width: 100%;
+    height: 230px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+
+/* Configuramos el contenedor del buscador y  la fecha*/
+.content-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding: 1rem;
+    position: relative;
+    top: -3rem;
+}
+
+/* Fecha del sistema */
+.time {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    top: -30px;
+    color: rgb(79, 79, 79);
+}
+
+/* Titulo del banner */
+.title{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.632);
+    color: white;
+    min-height: 3rem;
+    padding: 1rem;
+    position: relative;
+    top: -3.7rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* contendor del input y boton de busqueda */
+.input-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    width: fit-content;
+    border-radius: .5rem;
+    height: 2.5rem;
+    overflow: hidden;
+    margin-top: 1rem;
+}
+
+.input-container input{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    outline: none;
+    padding: 15px;
+    background: rgb(208, 208, 208);
+    font-size: 1rem;
+}
+
+.btn-search {
+    height: 100%;
+    width: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(1, 59, 134);
+    cursor: pointer;
+    color: white;
+}
+
+/* Icono de la lupa */
+i {
+    pointer-events: none;
+}
+
+/* Contenedor de la tabla y el mensage */
+.content-data {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    min-height: 30vh;
+    align-items: center;
+    margin-bottom: 3rem;
+    padding: 0 1rem;
+}
+
+.message {
+    color: rgb(180, 180, 180);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+}
+
+footer {
+    margin-top: 2rem;
+    background: black;
+    display: flex;
+    width: 100%;
+    color: white;
+    padding: 1rem;
+    position: relative;
+    text-align: justify;
+}
+
+footer span {
+    position: absolute;
+    top: -1.9rem;
+    background: rgb(141, 141, 255);
+    padding: .5rem;
+    color: #2c2c90;
+    font-weight: bold;
+}
+
+/* Contenedor de la tabla y el mensaje resultado*/
+.container-block {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+}
+
+.table {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.table-container {
+    width: 100%;
+    overflow: auto;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+th {
+    vertical-align: middle;
+}
+
+/* Sirve para ocular */ 
+.hidden {
+    display: none;
+}

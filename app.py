@@ -3,6 +3,7 @@ from flask_pymongo import PyMongo
 from bson import json_util
 import os
 
+
 # Configuramos la ruta para los layouts
 app = Flask(__name__, template_folder='templates')
 # Configuramos la ruta para los archivos estáticos

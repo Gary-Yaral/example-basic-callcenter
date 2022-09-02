@@ -1,5 +1,5 @@
 // importamos la libreria para calcular la edad
-import { calculatYear } from "./calculateAge.js"
+import { calculateYear } from "./calculateAge.js"
 
 // Seleccioamos el contenedor de la fecha
 const time = document.querySelector('.time')
@@ -41,7 +41,9 @@ time.innerHTML = `Ecuador, ${date} de ${months[month]} del ${year}`
 
 // Añadimos un evento click para el boton de buscar
 search.onclick = () => {
+    // Gurdamos el valor que tiene el input de la cedula
     let value = dni.value
+    // Validamos que sea una cedula
     let isValid = /^([\d]{10})$/.test(value)
     // Verificamos que haya 10 caracteres
     if(isValid) {
@@ -49,6 +51,7 @@ search.onclick = () => {
         $.post("/", {dni: value}, (response) => {
             // Seleccionamos el tbody
             let tbody = tableContainer.querySelector('tbody')
+
             if(response) {
                 // Contamos el número total de hijos
                 let children = response.children.length
@@ -72,9 +75,10 @@ search.onclick = () => {
                 response.children.forEach(child => {
                     // Transformamos la fecha a un formato legible
                     let date = child.born.split("/")
+                    // Eset es el formato para validar 2022-01-12
                     let formatedDate = `${date[2]}-${date[1]}-${date[0]}`
                     // Calculamos la edad de cada hijo
-                    let age = calculatYear(formatedDate)
+                    let age = calculateYear(formatedDate)
                     // Cantamos los hijos que son menores a 5 años
                     if(age < 5) {
                         childrenUnder5++
@@ -89,8 +93,7 @@ search.onclick = () => {
                 let bonus = verifyBeneficiary(
                     response.salary, 
                     childrenUnder5, 
-                    childrenUnder18, 
-                    response.b_services
+                    childrenUnder18
                 )
 
                 // Seleccionamos el contenedor del mensage si es beneficiario
@@ -147,20 +150,24 @@ search.onclick = () => {
         })
     } else {
         // Si se intenta enviar número con más o menos digitos mostrará error
-        Swal.fire("¡Atención!", "Numero de cédula no es válida", "warning")
+        // success, warning, error
+        Swal.fire("¡Atención!", "Numero de cédula no es válido", "warning")
     }
 }
 
 // Valida si es o no beneficiario  del bono
-function verifyBeneficiary(salary, childrenUnder5, childrenUnder18, services) {
+function verifyBeneficiary(salary, childrenUnder5, childrenUnder18) {
     let bonus = 0
     let hasChildren = childrenUnder18 > 0 || childrenUnder5 > 0
+
+    // Esto es para el bono en general
     if(salary < 425) {
         if(hasChildren) {
             bonus = 55
         }
     }
 
+    // Esto sirve para validar que tenga 3 hijos menores de 5 años
     if(childrenUnder5 >= 3) {
         let first = 27
         let second = 24.30
@@ -172,5 +179,6 @@ function verifyBeneficiary(salary, childrenUnder5, childrenUnder18, services) {
 
     }
 
+    // Añadimos dos decimales usando el metodo toFixed(2)
     return bonus.toFixed(2)
 }
